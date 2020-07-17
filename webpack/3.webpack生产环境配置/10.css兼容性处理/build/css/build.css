@@ -1,0 +1,19 @@
+#box{
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+#box2{
+    height: 400px;
+    background: purple;
+}
+#box3{
+    display: flex;
+}
+
+#box3 p:nth-child(1){
+    background: deeppink;
+    flex: 1;
+}
